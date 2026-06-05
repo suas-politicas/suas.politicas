@@ -37,7 +37,7 @@ nav a:hover {
 /* BANNER PRINCIPAL */
 
 .hero {
-    background-image: url("Imagens/fundo-girassol.png");
+    background-image: url("fundo-girassol.png");
     background-size: cover;
     background-position: center;
     padding: 120px 20px;
