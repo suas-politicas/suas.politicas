@@ -162,4 +162,75 @@ footer p {
     display: block;
     margin: 0 auto 20px auto;
     border-radius: 12px;
+}/* AJUSTES PARA CELULAR */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    nav a {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 70px 15px;
+    }
+
+    .hero-conteudo {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 45px 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .quemsou {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto img {
+        width: 240px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        min-width: auto;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .botao {
+        width: auto;
+        text-align: center;
+    }
 }
