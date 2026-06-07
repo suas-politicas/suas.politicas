@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SUAS.POLÍTICAS</title>
 
   <style>
@@ -23,11 +23,11 @@
       background: #722f37;
       color: white;
       text-align: center;
-      padding: 40px 20px;
+      padding: 45px 20px;
     }
 
     header img {
-      max-width: 180px;
+      max-width: 160px;
       margin-bottom: 20px;
     }
 
@@ -36,33 +36,30 @@
       margin-bottom: 10px;
     }
 
-    header p {
-      font-size: 1.1rem;
-      max-width: 800px;
-      margin: auto;
+    header h3 {
+      color: #f7f2ec;
+      font-weight: normal;
+      margin-bottom: 10px;
     }
 
     nav {
       background: #4b1f27;
-      padding: 12px;
       text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 10;
+      padding: 12px;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 8px 14px;
       font-weight: bold;
+      margin: 8px 14px;
       display: inline-block;
     }
 
     section {
       max-width: 1100px;
       margin: auto;
-      padding: 50px 20px;
+      padding: 45px 20px;
     }
 
     h2 {
@@ -74,27 +71,27 @@
 
     h3 {
       color: #4b1f27;
-      margin-bottom: 10px;
+      margin: 15px 0 10px;
     }
 
     .card {
       background: white;
-      border-radius: 18px;
       padding: 28px;
+      border-radius: 18px;
       margin-bottom: 25px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
     .produtos {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 25px;
     }
 
     .produto {
       background: white;
+      padding: 24px;
       border-radius: 18px;
-      padding: 22px;
       text-align: center;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
@@ -103,14 +100,14 @@
       width: 100%;
       max-width: 230px;
       height: auto;
+      border-radius: 14px;
       margin-bottom: 15px;
-      border-radius: 12px;
     }
 
     .botao {
       display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
+      margin-top: 16px;
+      padding: 12px 22px;
       background: #722f37;
       color: white;
       text-decoration: none;
@@ -122,34 +119,21 @@
       background: #4b1f27;
     }
 
+    .contato {
+      text-align: center;
+    }
+
     footer {
       background: #4b1f27;
       color: white;
       text-align: center;
       padding: 30px 20px;
-      margin-top: 40px;
-    }
-
-    footer a {
-      color: white;
-      font-weight: bold;
+      margin-top: 30px;
     }
 
     @media (max-width: 768px) {
-      header {
-        padding: 30px 18px;
-      }
-
       header h1 {
         font-size: 1.9rem;
-      }
-
-      header p {
-        font-size: 1rem;
-      }
-
-      nav {
-        position: static;
       }
 
       nav a {
@@ -165,7 +149,7 @@
         font-size: 1.6rem;
       }
 
-      .card {
+      .card, .produto {
         padding: 22px;
       }
     }
@@ -177,34 +161,37 @@
   <header>
     <img src="logo.png" alt="Logo SUAS.POLÍTICAS">
     <h1>SUAS.POLÍTICAS</h1>
-    <p>Gestão no SUAS, instrumentais técnicos, supervisão profissional, consultoria e formações para quem atua na política pública de Assistência Social.</p>
+    <h3>Conhecimento que transforma</h3>
+    <p>Gestão, supervisão, instrumentais e formações para quem atua no Sistema Único de Assistência Social.</p>
+    <a class="botao" href="#produtos">Conheça os materiais</a>
   </header>
 
   <nav>
-    <a href="#sobre">Sobre</a>
+    <a href="#quem-sou">Quem Sou</a>
+    <a href="#o-que-e">O que é</a>
     <a href="#produtos">Produtos</a>
     <a href="#supervisao">Supervisão</a>
     <a href="#formacoes">Formações</a>
     <a href="#contato">Contato</a>
   </nav>
 
-  <section id="sobre">
+  <section id="quem-sou">
+    <h2>Quem Sou</h2>
+    <div class="card">
+      <p>Sou Lígia Moreira de Andrade, Assistente Social, coordenadora de serviços socioassistenciais de alta complexidade, supervisora técnica e fundadora do SUAS.POLÍTICAS.</p>
+      <br>
+      <p>Há mais de 10 anos atuo na Política de Assistência Social, desenvolvendo projetos, instrumentais, processos de supervisão, gestão de equipes e estratégias voltadas à qualificação dos serviços ofertados à população.</p>
+      <br>
+      <p>O SUAS.POLÍTICAS nasceu do propósito de transformar experiências práticas, conhecimento técnico e aprendizado construído na realidade dos serviços em ferramentas acessíveis, formações, supervisões e materiais que contribuam para intervenções mais seguras, qualificadas e humanizadas.</p>
+    </div>
+  </section>
+
+  <section id="o-que-e">
     <h2>O que é o SUAS.POLÍTICAS?</h2>
     <div class="card">
-      <p>
-        O SUAS.POLÍTICAS é uma iniciativa voltada ao desenvolvimento de instrumentais, supervisão técnica, consultorias, formações e publicações para profissionais, equipes e serviços que atuam no Sistema Único de Assistência Social.
-      </p>
+      <p>O SUAS.POLÍTICAS é uma iniciativa voltada ao desenvolvimento profissional, qualificação técnica e fortalecimento das práticas de trabalho de profissionais, equipes e organizações que atuam no Sistema Único de Assistência Social.</p>
       <br>
-      <p>
-        Nosso objetivo é transformar conhecimento técnico em ferramentas práticas, acessíveis e aplicáveis à rotina dos serviços socioassistenciais.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Quem sou eu</h3>
-      <p>
-        Sou Assistente Social, coordenadora de serviço de alta complexidade, supervisora técnica e fundadora do SUAS.POLÍTICAS. Atuo há mais de 10 anos no SUAS, com experiência em gestão de equipes, elaboração de instrumentais, contratos públicos, supervisão profissional, execução de projetos e qualificação de práticas institucionais.
-      </p>
+      <p>Por meio de supervisão técnica, consultorias, formações, produção de materiais especializados e espaços de escuta qualificada, buscamos promover maior segurança técnica, reflexão crítica e desenvolvimento profissional contínuo.</p>
     </div>
   </section>
 
@@ -214,77 +201,104 @@
     <div class="produtos">
 
       <div class="produto">
-        <img src="pia360.png" alt="PIA 360">
-        <h3>PIA 360º</h3>
-        <p>Instrumental técnico para construção, acompanhamento e reavaliação do Plano Individual de Atendimento.</p>
-        <a class="botao" href="https://go.hotmart.com/X106096662O" target="_blank">Acessar</a>
+        <img src="kitpia.png" alt="Kit PIA 360">
+        <h3>Kit PIA 360º + Manual de Preenchimento</h3>
+        <p>Instrumental completo para planejamento, acompanhamento e avaliação dos usuários. Inclui modelo editável e manual prático de preenchimento.</p>
+        <a class="botao" href="https://go.hotmart.com/F106136170I" target="_blank">Comprar agora</a>
       </div>
 
       <div class="produto">
-        <img src="kitpia.png" alt="Kit PIA 360">
-        <h3>Kit PIA 360º + Manual</h3>
-        <p>Material completo com instrumental e manual de preenchimento para apoiar a prática profissional.</p>
-        <a class="botao" href="https://go.hotmart.com/F106136170I" target="_blank">Acessar</a>
+        <img src="pia360.png" alt="PIA 360">
+        <h3>PIA 360º</h3>
+        <p>Modelo editável do Plano Individual de Atendimento, pronto para utilização e adaptação aos serviços socioassistenciais.</p>
+        <a class="botao" href="https://go.hotmart.com/X106096662O" target="_blank">Comprar agora</a>
       </div>
 
       <div class="produto">
         <img src="provocacoes.png" alt="Cartas Provocações do SUAS">
         <h3>Cartas Provocações do SUAS</h3>
-        <p>Cartas reflexivas para supervisões, reuniões, formações, estudos dirigidos e desenvolvimento de equipes.</p>
-        <a class="botao" href="https://go.hotmart.com/J102112858J" target="_blank">Acessar</a>
+        <p>Recurso para supervisão técnica, reuniões de equipe, capacitações e desenvolvimento profissional no SUAS.</p>
+        <a class="botao" href="https://go.hotmart.com/J102112858J" target="_blank">Comprar agora</a>
       </div>
 
       <div class="produto">
         <img src="livro.png" alt="Livro Há perdas que não sabem ir embora">
         <h3>Há perdas que não sabem ir embora</h3>
-        <p>Livro de Lucas A. Tavares, editado pelo SUAS.POLÍTICAS Edições, sobre luto, término e permanências afetivas.</p>
-        <a class="botao" href="https://hotmart.com" target="_blank">Acessar</a>
+        <p>Livro escrito pelo psicólogo Lucas A. Tavares e publicado pelo selo SUAS.POLÍTICAS Edições.</p>
+        <p>A obra nasceu do compromisso com a democratização do conhecimento e com a valorização de produções que contribuem para o cuidado emocional, a saúde mental e os processos de elaboração das perdas humanas.</p>
+        <a class="botao" href="https://hotmart.com" target="_blank">Conhecer o livro</a>
       </div>
 
     </div>
   </section>
 
   <section id="supervisao">
-    <h2>Supervisão Técnica</h2>
+    <h2>Supervisão Técnica Individual</h2>
     <div class="card">
-      <p>
-        A supervisão técnica é voltada para profissionais e equipes que desejam qualificar sua atuação, organizar processos de trabalho, discutir casos, fortalecer a identidade profissional e aprimorar a prática cotidiana no SUAS.
-      </p>
-      <br>
-      <p>
-        Os encontros podem incluir mapeamento de maturidade profissional, diário de supervisão, estudo dirigido, discussão de casos, planejamento de ações e construção de estratégias institucionais.
-      </p>
+      <p>A supervisão técnica é conduzida por meio de uma metodologia estruturada, desenvolvida para fortalecer competências profissionais, ampliar a capacidade analítica e qualificar as intervenções realizadas nos serviços socioassistenciais.</p>
+
+      <h3>Mapeamento de Maturidade Profissional</h3>
+      <p>Avaliação inicial que permite identificar potencialidades, desafios, competências técnicas, habilidades relacionais e oportunidades de desenvolvimento profissional.</p>
+
+      <h3>Diário de Supervisão</h3>
+      <p>Ferramenta de registro e reflexão contínua sobre desafios, aprendizados, avanços e construção do desenvolvimento profissional.</p>
+
+      <h3>Discussão Técnica de Casos</h3>
+      <p>Análise crítica de situações concretas da prática profissional, considerando aspectos éticos, normativos e metodológicos.</p>
+
+      <h3>Estudo Dirigido</h3>
+      <p>Seleção de materiais, legislações, normativas e referências técnicas de acordo com a especificidade de cada serviço.</p>
+
+      <h3>Plano de Desenvolvimento Profissional</h3>
+      <p>Construção conjunta de metas e estratégias voltadas ao fortalecimento da atuação técnica e da tomada de decisões qualificadas.</p>
+
+      <h3>Modalidade</h3>
+      <p>Supervisão realizada de forma online ou presencial, conforme disponibilidade e necessidade do profissional ou instituição.</p>
     </div>
   </section>
 
   <section id="formacoes">
     <h2>Formações e Treinamentos</h2>
     <div class="card">
-      <p>
-        As formações do SUAS.POLÍTICAS são construídas a partir das necessidades reais dos serviços, podendo envolver capacitações, rodas de conversa, oficinas, encontros temáticos, dinâmicas de equipe e parcerias com especialistas.
-      </p>
-      <br>
-      <p>
-        Os temas podem abranger gestão no SUAS, trabalho em equipe, comunicação, fluxos institucionais, planejamento, instrumentais técnicos, saúde do trabalhador e qualificação da prática socioassistencial.
-      </p>
+      <p>As formações e treinamentos promovidos pelo SUAS.POLÍTICAS são desenvolvidos a partir das demandas reais dos serviços, buscando articular conhecimento técnico, reflexão crítica e aplicabilidade prática no cotidiano profissional.</p>
+
+      <h3>Capacitações para Equipes</h3>
+      <p>Encontros voltados ao fortalecimento técnico das equipes, abordando temas relacionados à gestão, atendimento, instrumentais, legislação, trabalho em rede, ética profissional e execução dos serviços socioassistenciais.</p>
+
+      <h3>Rodas de Conversa</h3>
+      <p>Espaços de escuta, troca de experiências e construção coletiva do conhecimento.</p>
+
+      <h3>Oficinas e Dinâmicas</h3>
+      <p>Metodologias participativas que estimulam o protagonismo dos participantes, a aprendizagem significativa e o desenvolvimento de competências técnicas e relacionais.</p>
+
+      <h3>Estudos Temáticos</h3>
+      <p>Aprofundamento em legislações, normativas, orientações técnicas, fluxos de trabalho e temas específicos relacionados às políticas públicas.</p>
+
+      <h3>Parcerias Especializadas</h3>
+      <p>A depender da temática solicitada, as formações poderão contar com a participação de profissionais convidados, especialistas e parceiros.</p>
     </div>
   </section>
 
   <section id="contato">
     <h2>Contato</h2>
-    <div class="card" style="text-align: center;">
-      <p>Para consultorias, supervisões, formações ou parcerias:</p>
-      <br>
-      <p><strong>Instagram:</strong> @suas.politicas</p>
-      <p><strong>E-mail:</strong> ligia.mo.an@gmail.com</p>
-      <br>
-      <a class="botao" href="https://www.instagram.com/suas.politicas/" target="_blank">Conhecer no Instagram</a>
+    <div class="card contato">
+      <h3>WhatsApp</h3>
+      <p><a href="https://wa.me/5516999895003" target="_blank">+55 (16) 99989-5003</a></p>
+
+      <h3>E-mail</h3>
+      <p>suas.politicas@gmail.com</p>
+
+      <h3>Instagram</h3>
+      <p><a href="https://www.instagram.com/suas.politicas/" target="_blank">@suas.politicas</a></p>
+
+      <h3>CNPJ</h3>
+      <p>66.259.697/0001-28</p>
     </div>
   </section>
 
   <footer>
-    <p>SUAS.POLÍTICAS © 2026</p>
-    <p>Instrumentais, supervisão técnica, consultoria e formações para o SUAS.</p>
+    <p>SUAS.POLÍTICAS • Conhecimento que transforma</p>
+    <p>CNPJ: 66.259.697/0001-28</p>
   </footer>
 
 </body>
